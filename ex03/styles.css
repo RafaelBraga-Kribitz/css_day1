@@ -1,3 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+article {
+    margin: 100;
+}
+
 /* External styles for the article */
 h1 {
     font-family: 'Times New Roman', serif;
@@ -7,10 +17,17 @@ h1 {
 /* Fallback font family */
 .author-list p {
     font-family: Verdana, sans-serif;
-    color: black; /* Fallback color */
+    color: rgb(8, 8, 8); /* Fallback color */
 }
 
 .article-body p {
     font-size: 16px;
     color: black; /* Fallback color */
+}
+
+p {
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 30px;
 }
