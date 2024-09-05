@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modified DOM Working Tree</title>
+    <title>DOM Tree Exercise 2</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -27,25 +28,29 @@
 
         <div class="right" id="second">
             <div class="right" id="fifth">
-                <p>This paragraph will be hidden without space.</p>
+                <p>This paragraph will no longer be hidden.</p>
             </div>
             <div class="right" id="sixth">
                 <img src="image.png" alt="Sample Image">
             </div>
         </div>
-        <div>
-            <div>
-                <form action="">
-                    <label for="comment">comment:</label>
-                    <input type="text" placeholder="I loved this form" name="comment" id="comment">
-                </form>
-            </div>
-        </div>
+
+        <!-- Form as the last child of the container -->
+        <form>
+            <label for="input1">First Input:</label>
+            <input type="text" id="input1" name="input1">
+            <label for="input2">Second Input:</label>
+            <input type="text" id="input2" name="input2">
+        </form>
     </div>
-    <form action="">
-        <label for="proclaim">proclaim:</label>
-        <input type="text" placeholder="I hated this form" name="proclaim" id="proclaim">
-        <input type="submit" value="Submit">
+
+    <!-- Form outside the container with a button -->
+    <form>
+        <label for="input3">Third Input:</label>
+        <input type="text" id="input3" name="input3">
+        <label for="input4">Fourth Input:</label>
+        <input type="text" id="input4" name="input4">
+        <button type="submit">Submit</button>
     </form>
 </body>
 </html>
