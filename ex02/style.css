@@ -8,15 +8,15 @@ h1 {
     color: blue;
 }
 
-/* Hide the span inside #third but keep its space */
+/* Hide the span inside #third but keep its space
 #third > span {
     visibility: hidden;
-}
+} */
 
-/* Hide the paragraph inside .right and remove its space */
+/* Hide the paragraph inside .right and remove its space
 .right p {
     display: none;
-}
+} */
 
 /* Image size styling */
 img {

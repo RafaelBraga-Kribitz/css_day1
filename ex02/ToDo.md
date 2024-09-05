@@ -1,5 +1,5 @@
 
-[] Take the HTML document of your previous exercise and have all its
+[x] Take the HTML document of your previous exercise and have all its
 elements displayed again.
 
 [] Add two short forms with two inputs of the type “text” each. One form
