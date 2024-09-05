@@ -1,0 +1,16 @@
+/* External styles for the article */
+h1 {
+    font-family: 'Times New Roman', serif;
+    text-transform: uppercase;
+}
+
+/* Fallback font family */
+.author-list p {
+    font-family: Verdana, sans-serif;
+    color: black; /* Fallback color */
+}
+
+.article-body p {
+    font-size: 16px;
+    color: black; /* Fallback color */
+}
