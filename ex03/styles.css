@@ -4,14 +4,21 @@
     border: 0;
 }
 
-article {
-    margin: 100;
-}
+img {        
+    display:block;
+    width: 1140px;
+    align-content: center;
+    margin-inline: 10%;
+  }
 
 /* External styles for the article */
 h1 {
-    font-family: 'Times New Roman', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: uppercase;
+    font-weight: 200;
+    font-size: 60px;
+    margin: 40px;
+    text-align: center;
 }
 
 /* Fallback font family */
