@@ -28,3 +28,8 @@ img {
 p {
     color: red;
 }
+
+/* Add color background to <p> inside #third but keep its space */
+#third > p {
+    background-color: purple;
+}

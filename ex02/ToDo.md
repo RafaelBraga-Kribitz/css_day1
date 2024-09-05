@@ -9,6 +9,6 @@
 
 [x] Bring back the <p> element in the div with class='right' that you previously hid.
 
-[] Then give the <p> element in the <div id='third'> a background-color of your choice  
+[x] Then give the <p> element in the <div id='third'> a background-color of your choice  
     [] make sure the p-element in the <div id='fifth'> doesn't get changed.
 
